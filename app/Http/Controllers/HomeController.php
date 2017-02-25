@@ -23,6 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        // komentarperubahanpadafile controller
         return view('home');
     }
 }
